@@ -1,141 +1,290 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-</style>
 </head>
+
 <body>
 
-<h2>Thailand Itinerary</h2>
+  <h2>Thailand Itinerary</h2>
+  <button class="accordion" id="accordion">
+    <img src='img/right-arrow.png' class="right-arrow" id="arrow">Days 1-2: Travel from Key West to Bangkok</button>
+  <div class="panel">
+    <h3 class="date-header"> Sun, 12/9/18 - Leave KY </h3>
+    <h3 class="date-header"> Mon, 12/10/18 - Travel </h3>
+  </div>
 
-<button class="accordion">Days 1-2: Travel from Key West to Bangkok</button>
-<div class="panel">
-<h3> Sun, 12/9/18 - Leave KY </h3>
-<h3> Mon, 12/10/18 - Travel </h3>
-</div>
+  <button class="accordion" id="accordion2">
+    <img src='img/right-arrow.png' class="right-arrow" id="arrow2">Days 3-5 Bangkok</button>
 
-<button class="accordion">Days 3-5 Bangkok</button>
-
-<div class="panel">
-  <h3>General Info</h3>
-  <h4> Hotel:
-    <a href="http://bangkok.peninsula.com/en/default" target="_blank">
-      The Peninsula Bangkok
-    </a>
-  </h4>
-  <h4> Room:
-    <a href="http://bangkok.peninsula.com/en/room-types/grand-balcony-room"   target="_blank">
+  <div class="panel">
+    <h3>General Info</h3>
+    <h4 class="time-header"> Hotel:
+      <a href="http://bangkok.peninsula.com/en/default" target="_blank">
+        The Peninsula Bangkok
+      </a>
+    </h4>
+    <h4 class="time-header"> Room:
+      <a href="http://bangkok.peninsula.com/en/room-types/grand-balcony-room" target="_blank">
         Grand Balcony Room
-    </a>
-    OR
-    <a href="http://bangkok.peninsula.com/en/room-types/grand-deluxe-room"   target="_blank">
-      Grand Deluxe Room
-    </a>
-  </h4>
+      </a>
+      OR
+      <a href="http://bangkok.peninsula.com/en/room-types/grand-deluxe-room" target="_blank">
+        Grand Deluxe Room
+      </a>
+    </h4>
 
-  <h3>Tues, 12/11/18</h3>
-  <h4>Morning</h4>
-    <p>Arrive in Bangkok by 1 PM local time, go to hotel to check-in and drop off bags, maybe shower after long time on planes and airports?</p>
-  <h4>Afternoon</h4>
-  <p>Explore the riverside and maybe up into chinatown a little bit. Grab lunch somewhere along the river. Get a feel for the neighborhood.</p>
-  <h4>Night</h4>
-  <p>Dinner at <a href="http://bangkok.peninsula.com/en/fine-dining/thiptara-thai-restaurant" target="_blank">Thiptara Restaurant</a>, The Peninsula's reiverfront thai food restaurant. Or perhaps dinner elsewhere in the riverside area around our hotel</p>
+    <h3 class="date-header">Tues, 12/11/18</h3>
+    <h4 class="time-header">Morning</h4>
+    <p>Arrive in Bangkok by 1 PM local time, go to hotel to check-in and drop off bags, maybe shower after long time on planes
+      and airports?</p>
+    <h4 class="time-header">Afternoon</h4>
+    <p>Explore the riverside and maybe up into chinatown a little bit. Grab lunch somewhere along the river. Get a feel for
+      the neighborhood.</p>
+    <h4 class="time-header">Night</h4>
+    <p>Dinner at
+      <a href="http://bangkok.peninsula.com/en/fine-dining/thiptara-thai-restaurant" target="_blank">Thiptara Restaurant</a>, The Peninsula's reiverfront thai food restaurant. Or perhaps dinner elsewhere in the riverside
+      area around our hotel</p>
 
-  <h3>Wed, 12/12/18</h3>
-  <h4>Old Bangkok Walking Tour</h4>
-  Start the day with an early power breakfast in the hotel. From there we will take a hotel provided boat up the river to Chiang Pier where we will begin a 4km, 4-6 hour tour of old bangkok. We will hit the world famous Bangkok templates like Wat Pho (Temple of the Reclining Buddha) and Wat Phra Kaew (Temple of Jade Buddha) &amp; the Grand Palace, as well as a number of other lesser known spots.
-  <br><br>
-  <center><img src = "img/old-bangkok-walking-tour.png" width=80%></center>
-  The bulk of Bangkok's must-see desitnations are in and around the former royal district <strong>Ko Ratanakosin</strong>. It's best to start early to beat both the heat and the hordes. Remember to dress modestly to gain entry to the temples. <strong>Also ignore any strangers offering advice on sightseeing or shopping.</strong> <br><br>
-  
-  Start at <strong>1) Chiang Pier.</strong> Proceed east to the main gate of <strong>2) Wat Phra Kaew & Grand Palace (p61),</strong> two of Bangkok's most famous attractions. Backtrack, then head north along Th Maha Rat, and immediately afer passing the cat-laden newsstand (you'll know it when you smell it), turn left into <strong>3) Trok Tha Wang</strong>, a narrow allewway holding a hidden classic Bangkok neighborhood.<br><br>
-  
-  Turn left into crowded Trok Maha That to discover the cramped <strong>4) amulet market (p68)</strong>. Exiting the market at Tha Phra Chan, cross Th Maha Rat and continue east until you reach <strong>5) Sanam Luang</strong>, the "Royal Field."<br><br>
+    <h3 class="date-header">Wed, 12/12/18</h3>
+    <h4 class="time-header">Old Bangkok Walking Tour</h4>
+    <p>
+    Start the day with an early power breakfast in the hotel. From there we will take a hotel provided boat up the river to Chiang
+    Pier where we will begin a 4km, 4-6 hour tour of old bangkok. We will hit the world famous Bangkok templates like Wat
+    Pho (Temple of the Reclining Buddha) and Wat Phra Kaew (Temple of Jade Buddha) &amp; the Grand Palace, as well as a number
+    of other lesser known spots.
+  </p>
+    <br>
+    <br>
+    <center>
+      <img src="img/old-bangkok-walking-tour.png" width=80%>
+    </center>
+    <p>
+    The bulk of Bangkok's must-see desitnations are in and around the former royal district
+    <strong>Ko Ratanakosin</strong>. It's best to start early to beat both the heat and the hordes. Remember to dress modestly to
+    gain entry to the temples.
+    <strong>Also ignore any strangers offering advice on sightseeing or shopping.</strong>
+    <br>
+    <br> Start at
+    <strong>1) Chiang Pier.</strong> Proceed east to the main gate of
+    <strong>2) Wat Phra Kaew & Grand Palace (p61),</strong> two of Bangkok's most famous attractions. Backtrack, then head north
+    along Th Maha Rat, and immediately afer passing the cat-laden newsstand (you'll know it when you smell it), turn left
+    into
+    <strong>3) Trok Tha Wang</strong>, a narrow allewway holding a hidden classic Bangkok neighborhood.
+    <br>
+    <br> Turn left into crowded Trok Maha That to discover the cramped
+    <strong>4) amulet market (p68)</strong>. Exiting the market at Tha Phra Chan, cross Th Maha Rat and continue east until you reach
+    <strong>5) Sanam Luang</strong>, the "Royal Field."
+    <br>
+    <br> Cross Th Ratchadamnoen Nai and go north, turning right at the Royal Hotel onto
+    <strong>6) Th Ratchadamnoen Klang</strong>, Bangkok's own Champs-Elysees Continuing east, at the intersection with Th Tanae,
+    you'll see the
+    <strong>7) October 14 memorial</strong>, commemorating the civiliation demonstrators who were killed on 14 October 1973 by the
+    military during a pro-democracy rally. In the distance you'll see the
+    <strong>8) Democracy Monument</strong>, erected in 1932.
+    <br>
+    <br> After a lunch stop at
+    <strong>9) Pok Spa Kar</strong> or
+    <strong>10) Chote Chitr</strong>, enter Th Phraeng Nara, crossing Khlong Lod, and continue west along Th Lak Meuang to the home
+    of Bankok's city spirit,
+    <strong>11) Lak Meuang (p69)</strong>.
+    <br>
+    <br> Head south along the Sanam Chai and turn right onto Th Thai Wang, which will escourt you to the entrance of
+    <strong>12) Wat Pho (p61)</strong>, home of the giant Reclining Buddha.
+    <br>
+    <br> After that long afternoon of navigating the streets of old Bangkok, we will likely be pretty sweaty and gross. Time
+    to head back to the hotel to clean up and get ready for a night out in Bangkok.
+    <br>
+  </p>
+    <h4 class="time-header">Night</h4>
+
+    Dinner:
+    <a href="http://catbox.fr/" target="_blank"> Chim by Siam Wisdom</a>
+    <br> Other Activities: Explore bar scene around restaurant
+
+    <h3 class="date-header">Thurs, 12/13/18</h3>
+    <h4 class="time-header">Morning</h4>
+    Breakfast at or around hotel. Head out to Siam Square.
+    <h4 class="time-header">Afternoon</h4>
+    Explore Siam Square, Jim Thompson House, Lumphini park, go to nahm for lunch
+    <h4 class="time-header">Night</h4>
+    Chinatown and street food
+  </div>
+
+  <button class="accordion" id="accordion3">
+    <img src='img/right-arrow.png' class="right-arrow" id="arrow3">Days 6-9 Chiang Mai</button>
+  <div class="panel">
+
+    <h3 class="date-header">Fri 12/14/18</h3>
+    <h4 class="time-header"> Morning</h4>
+
+Breakfast in Bangkok, head out to catch 75 minute flight to Chiang Mai
+
+<h4 class="time-header"> Afternoon</h4>
+
+Get to hotel, check-in, explore neighborhood around the hotel. Freestyle.
+
+<h4 class="time-header"> Night</h4>
+
+Delicious casual food and drinks. Chilling.
+    <h3 class="date-header">Sat 12/15/18</h3>
+    <h4 class="time-header"> Morning & Afternoon</h4>
+
+Trip to an organic farm to learn about Thai farming and cooking
+
+<h4 class="time-header"> Night</h4>
+
+Might be time for some 'international' food?
+    <h3 class="date-header">Sun 12/16/18</h3>
+      <h4 class="time-header"> Morning & Afternoon</h4>
+
+Elephant sanctuary (not riding them!)
+
+<h4 class="time-header"> Night</h4>
+
+Cool Chiang mai spot for dinner.
+    <h3 class="date-header">Mon 12/17/18</h3>
+
+    <h4 class="time-header"> Morning & Afternoon</h4>
+
+    Morning pick-up for ziplining adventure. Back by early afternoon. Clean up at hotel.
     
-  Cross Th Ratchadamnoen Nai and go north, turning right at the Royal Hotel onto <strong>6) Th Ratchadamnoen Klang</strong>, Bangkok's own Champs-Elysees Continuing east, at the intersection with Th Tanae, you'll see the <strong>7) October 14 memorial</strong>, commemorating the civiliation demonstrators who were killed on 14 October 1973 by the military during a pro-democracy rally. In the distance you'll see the <strong>8) Democracy Monument</strong>, erected in 1932.<br><br>
+    <h4 class="time-header"> Night</h4>
     
-  After a lunch stop at <strong>9) Pok Spa Kar</strong> or <strong>10) Chote Chitr</strong>, enter Th Phraeng Nara, crossing Khlong Lod, and continue west along Th Lak Meuang to the home of Bankok's city spirit, <strong>11) Lak Meuang (p69)</strong>.<br><br>
-    
-  Head south along the Sanam Chai and turn right onto Th Thai Wang, which will escourt you to the entrance of <strong>12) Wat Pho (p61)</strong>, home of the giant Reclining Buddha.<br><br>
-  
-After that long afternoon of navigating the streets of old Bangkok, we will likely be pretty sweaty and gross. Time to head back to the hotel to clean up and get ready for a night out in Bangkok.<br>
+    Last dinner in Chiang Mai...make it count
+ 
 
-  <h4>Night</h4>
+  </div>
 
-  Dinner: <a href="http://catbox.fr/" target = "_blank"> Chim by Siam Wisdom</a>
-  <br>
-  Other Activities: Explore bar scene around restaurant
+  <button class="accordion" id="accordion4">
+    <img src='img/right-arrow.png' class="right-arrow" id="arrow4">Days 10-13 Ko Lanta</button>
+  <div class="panel">
+    <h3 class="date-header"></h3>
+    <h3 class="date-header"></h3>
+    <h3 class="date-header"></h3>
+    <h3 class="date-header"></h3>
 
-  <h3>Thurs, 12/13/18</h3>
-  <h4>Morning</h4>
-  Breakfast at or around hotel. Head out to Siam Square.
-  <h4>Afternoon</h4>
-  Explore Siam Square, Jim Thompson House, Lumphini park, go to nahm for lunch
-  <h4>Night</h4>
-  Chinatown and street food
-</div>
+  </div>
 
-<button class="accordion">Days 6-9 Chiang Mai</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+  <button class="accordion" id="accordion5">
+    <img src='img/right-arrow.png' class="right-arrow" id="arrow5">Day 14: Bangkok</button>
+  <div class="panel">
+    <h3 class="date-header"></h3>
+  </div>
 
-<button class="accordion">Days 10-13 Ko Lanta</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+  <button class="accordion" id="accordion6">
+    <img src='img/right-arrow.png' class="right-arrow" id="arrow6">Days 15-16: Back to the States</button>
+  <div class="panel">
 
-<button class="accordion">Day 14: Bangkok</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+  </div>
 
-<button class="accordion">Days 15-16: Back to the States</button>
-<div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
+    (function (document) {
+      var div = document.getElementById('accordion');
+      var icon = document.getElementById('arrow');
+      var open = false;
+      div.addEventListener('click', function () {
+        if (open) {
+          icon.className = 'right-arrow';
+        } else {
+          icon.className = 'right-arrow open';
+        }
+        open = !open;
+      });
+    })(document);
+
+    (function (document) {
+      var div = document.getElementById('accordion2');
+      var icon = document.getElementById('arrow2');
+      var open = false;
+      div.addEventListener('click', function () {
+        if (open) {
+          icon.className = 'right-arrow';
+        } else {
+          icon.className = 'right-arrow open';
+        }
+        open = !open;
+      });
+    })(document);
+
+    (function (document) {
+      var div = document.getElementById('accordion3');
+      var icon = document.getElementById('arrow3');
+      var open = false;
+      div.addEventListener('click', function () {
+        if (open) {
+          icon.className = 'right-arrow';
+        } else {
+          icon.className = 'right-arrow open';
+        }
+        open = !open;
+      });
+    })(document);
+
+    (function (document) {
+      var div = document.getElementById('accordion4');
+      var icon = document.getElementById('arrow4');
+      var open = false;
+      div.addEventListener('click', function () {
+        if (open) {
+          icon.className = 'right-arrow';
+        } else {
+          icon.className = 'right-arrow open';
+        }
+        open = !open;
+      });
+    })(document);
+
+    (function (document) {
+      var div = document.getElementById('accordion5');
+      var icon = document.getElementById('arrow5');
+      var open = false;
+      div.addEventListener('click', function () {
+        if (open) {
+          icon.className = 'right-arrow';
+        } else {
+          icon.className = 'right-arrow open';
+        }
+        open = !open;
+      });
+    })(document);
+
+    (function (document) {
+      var div = document.getElementById('accordion6');
+      var icon = document.getElementById('arrow6');
+      var open = false;
+      div.addEventListener('click', function () {
+        if (open) {
+          icon.className = 'right-arrow';
+        } else {
+          icon.className = 'right-arrow open';
+        }
+        open = !open;
+      });
+    })(document);
+
+
+  </script>
 
 </body>
+
 </html>
